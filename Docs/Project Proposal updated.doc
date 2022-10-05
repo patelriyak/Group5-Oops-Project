@@ -1,0 +1,37 @@
+ 
+
+Fall 2022
+CIS 694 – Object-oriented Software Engineer
+Project Proposal
+
+Project: Restaurant Management System
+
+Presented By: 
+Group 5
+Bhavana Tedlapalli (2808568)
+Riya Patel (2829317)
+Sravan kumar Singupuram (2836831)
+Calvin Raj Namburi(2836250)
+
+Language: Python
+DB: Mysql
+Description: 
+We decide to create a website for Restaurant Management System in Python. This Website have several Functionality like sign up, sign in, forget password, home page, cart, checkout, about us, contact us, different type of food. 
+Home page will be thoughts of our restaurant and reviews of customers, with our special dishes picture. Moreover, customer review. This website help customer to get food at their place.
+
+Hamburger contents of home, Menu, order online, About Us, Contact Us and login button.
+Our special features Will be two function buttons on bottom of homepage that will take them directly to the Facebook and Instagram page of Our Restaurant
+
+The goal of this project is to create restaurant management system while ordering to best practices and avoiding the repetition of typical development errors.
+All software engineering projects require project management and adhering to a project plan will be equally important.
+Any business's primary goal is to maximize profit by improving productivity and reducing costs, without sacrificing customer happiness. One of the least effective methods now used by many restaurants to communicate between the restaurant and kitchen is a paper-based system. Although successful, lucrative restaurants use this strategy, there are a number of issues that could be perceived as decreasing the restaurant's efficiency:
+
+Handwriting errors that lead to miscommunication.
+•	Impossibly large order logging.
+•	Ineffective kitchen-restaurant communication.
+•	Time management and order tracking challenges.
+•	Difficulty managing the stock.
+•	Minimal statistical results.
+
+These issues can be resolved or prevented by implementing an this thing restaurant management system, increasing revenues. 
+

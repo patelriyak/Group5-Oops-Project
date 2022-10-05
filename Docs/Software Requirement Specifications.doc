@@ -22,8 +22,6 @@ Calvin Raj Namburi(2836250)
 
 1.0	Introduction 
 
-This document presents a detailed explanation of the objectives, features, user interface and application of Restaurant Management System in real life. It will also describe how the system will perform and under which it must operate. This document is intended for different types of readers such as restaurant owner, system designer, system developer and tester. By reading this document a reader can learn about what the project is implemented for and how it will present it’s basic ideas. In this document it will be also shown user interface. Both the managers and the developers of the system can benefit from this document.
-
 We are proposing a solution by developing software that manages inventory. Located in the back of the house or kitchen and updated with daily sales. Each food is linked. Each resource (or ingredient) and ingredients used when selling each product. The manufacture of this product is also used. These inventory changes are database usage.
 
 1.1	Goals and objectives 

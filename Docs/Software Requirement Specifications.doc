@@ -20,35 +20,35 @@ Calvin Raj Namburi(2836250)
 
 
 
-1.0	Introduction 
-
-We are proposing a solution by developing software that manages inventory. Located in the back of the house or kitchen and updated with daily sales. Each food is linked. Each resource (or ingredient) and ingredients used when selling each product. The manufacture of this product is also used. These inventory changes are database usage.
+This document presents a detailed explanation of the objectives, features, user interface and application of Restaurant Management System in real life. It will also describe how the system will perform and under which it must operate. This document is intended for different types of readers such as restaurant owner, system designer, system developer and tester. By reading this document a reader can learn about what the project is implemented for and how it will present its basic ideas. In this document it will be also shown user interface. Both the managers and the developers of the system can benefit from this document.
 
 1.1	Goals and objectives 
 
-The project's goal is to offer an effective inventory control system whose primary functionality, in addition to calculating inventory, also includes anticipating the need for the upcoming order. If there is a "Special Occasion," the manager will choose it in accordance with the occasion, and additional requirements will be added to the upcoming order to the vendors, which must be approved by the manager. The tool also seeks to monitor resource shelf lives. Any resource that is nearing the end of its shelf life will notify the manager (admin) of the specifics of the quantity that is about to expire.
+The project's goal is to offer an effective inventory control system whose primary functionality, includes anticipating the need for the upcoming order. If there is a "Special Occasion," the manager will choose it in accordance with the occasion, and additional requirements will be added to the upcoming order to the users, which must be approved by the manager. 
 
 The success criteria hinges on:
-•	The ability to accurately track inventory levels.
-•	Predict the needs of the upcoming order.
-•	Correlating recipes to their appropriate ingredients.
-•	Simplicity of use for updating inventory levels and sending orders to vendors. 
+•	Predicting the needs of the upcoming order.
+•	Correlating recipes to their appropriate ingredients and spice level.
+•	Simplicity of use for updating orders and sending orders to users. 
 
 1.2	Statement of scope 
 
-This system will aid in the systematic management and operation of the restaurant business. We will include an app in our management system that customers can utilize to place food orders. Through this app, customers may also provide feedback. so that the restaurant's owner can assess the entire system. In the end, this will result in the hiring of fewer waiters and present an opportunity to appoint additional chefs and improved kitchen facilities to serve food more quickly. 
+This system will aid in the systematic management and operation of the restaurant business. We will include a website in our management system that customers can utilize to place food orders. Through this website, customers may also provide feedback. So that the restaurant's owner can assess the entire system. In the end, this will result in the hiring of fewer waiters and present an opportunity to appoint additional chefs and improved kitchen facilities to serve food more quickly. 
 
-Customers may also use POS(Point of Sale), which will be integrated with the management software, to make payments using debit or credit cards. Customers can view the restaurant's current discount options. Additionally, customers can view the calorie chart, which will raise their awareness of their health. The system will save all the data regarding daily costs and revenue. 
+Customers may also use POS(Point of Sale), which will be integrated with the management software, to make payments using debit or credit cards and through cash. Customers can view the restaurant's current discount options. Additionally, customers can view the calorie chart, which will raise their awareness of their health. The system will save all the data regarding daily costs and revenue. 
 
 1.3	Software context 
-The system must communicate with the configurator to identify all components available to configure the product. The system needs to communicate with content managers to retrieve product specifications. The proposed project attempts to improve restaurant industry inventory management. With such a broad realm there comes a broad spectrum of development. As a result, we focus primarily on the fundamental tools used in outlet inventory control in our program. Although the program will first be designed with the needs and data already available in mind, it will be simple to adapt it to a larger domain, such as the entire restaurant sector.
+The system must communicate with the configurator to identify all components available to configure the product. The system needs to communicate with content managers to retrieve product specifications. With such a broad realm there comes a broad spectrum of development. As a result, we focus primarily on the fundamental tools used in outlet inventory control in our program. Although the program will first be designed with the needs and data already available in mind, it will be simple to adapt it to a larger domain, such as the entire restaurant sector.
 
 While there is plenty of software available to track food, item sales, inventory management is lacking in our target domain. From huge corporate dining facilities to tiny, independently owned eateries, our software can be scaled. Additionally, it has a somewhat narrow scope because the database relies on recipes to produce the required ingredients. Additionally, based on the sales of certain recipes, the inventory is updated. This criteria narrows the scope of our offering to our industry and increases its appeal to anyone looking for a fix for this particular issue.
 
-1.4	Major constraints 
-The system interface to the phone's GPS navigation system places restrictions on the mobile application. Since there are numerous GPS and system manufacturers, the interfaces for each of them will probably differ. Additionally, the navigational elements that each of them offers could vary.
+Restaurant Management System website will attempt to replace the traditional manual ordering process and is a new self-contained software system that consists of The mobile application will be used for ordering, and ordering related information about the food items like pending and complete order queues and calculating the sales regularly. 
 
-Another limitation of the application is the Internet connection. It is essential that there be an Internet connection for the application to run because it retrieves data from the database over the Internet. The database's storage space will have an impact on both the online portal and the mobile app. Since the database is shared by both applications, it might be necessary to queue incoming requests, which would lengthen the time it takes to fetch data.
+
+1.4	Major constraints 
+The system interface to the phone's GPS navigation system places restrictions on the web application. Since there are numerous GPS and system manufacturers, the interfaces for each of them will probably differ. Additionally, the navigational elements that each of them offers could vary.
+
+Another limitation of the application is the Internet connection. It is essential that there be an Internet connection for the application to run because it retrieves data from the database over the Internet. The database's storage space will have an impact on both the online portal. Since the database is shared by website, it might be necessary to queue incoming requests, which would lengthen the time it takes to fetch data.
 
 The Restaurant Management System helps the restaurant manager to manage the restaurant more effectively and efficiently by computerizing meal ordering, billing, and inventory control. The system processes transaction and stores the resulting data. Reports will be generated from these data which help the manager to make appropriate business decisions for the restaurant. For example, knowing the number of customers for a particular time interval, the manager can decide whether more waiters and chefs are required. Moreover, easily calculate daily expenditure and profit. 
 

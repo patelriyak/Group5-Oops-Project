@@ -1,0 +1,33 @@
+{% extends "template.html" %}
+
+{% block content%}
+<section id="hero" class="d-flex align-items-center">
+    <div class="container position-relative text-center text-lg-start" data-aos="zoom-in" data-aos-delay="100">
+      <div class="row">
+        <div class="col-lg-8">
+					<div class="row">
+						<div class="col-sm-6">
+							<img src="/static/{{ data[3] }}">
+						</div>
+						<div class="col-sm-6">
+							<form action="/res/add_cart" method="post">
+								<br />
+								<h4><small>Food Name:</small> {{ data[1] }}</h4>
+								<br />
+								<br />
+								<h4><small>Price:</small> ${{ data[2] }}</h4>
+								<input type="text" name="foodname" class="form-control" placeholder="Username" style="display: none" value="{{ data[1] }}">
+								<br />
+								<br />
+								<br />
+								<br />
+								<br />
+								<button type="submit" class="form-control btn btn-primary rounded">Add To Cart</button>
+							</form>
+						</div>
+					</div>
+        </div>
+      </div>
+    </div>
+  </section><!-- End Hero -->
+{% endblock%}

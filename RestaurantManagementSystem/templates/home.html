@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Restaurantly Bootstrap Template - Index</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link href="{{url_for('static', filename='/assets/vendor/animate.css/animate.min.css')}}" rel="stylesheet">
+  <link href="{{url_for('static', filename='/assets/vendor/aos/aos.css')}}" rel="stylesheet">
+  <link href="{{url_for('static', filename='/assets/vendor/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
+  <link href="{{url_for('static', filename='/assets/vendor/bootstrap-icons/bootstrap-icons.css')}}" rel="stylesheet">
+  <link href="{{url_for('static', filename='/assets/vendor/boxicons/css/boxicons.min.css')}}" rel="stylesheet">
+  <link href="{{url_for('static', filename='/assets/vendor/glightbox/css/glightbox.min.css')}}" rel="stylesheet">
+  <link href="{{url_for('static', filename='/assets/vendor/swiper/swiper-bundle.min.css')}}" rel="stylesheet">
+  <link href="{{url_for('static', filename='/assets/css/style.css')}}" rel="stylesheet">
+</head>
+
+<body>
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-cente">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-lg-between">
+      {% if current != None %}
+      <h3>My budget: {{ current }}</h3>
+      {% endif %}
+      <h1 class="logo me-auto me-lg-0"><a href="index.html">Restaurant Management</a></h1>
+
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a class="nav-link active" href="#">Home</a></li>
+          <li><a class="nav-link" href="/res/res_list">Menu</a></li>
+          <li><a class="nav-link" href="/res/my_cart">My Carts</a></li>
+          <li><a class="nav-link" href="/about/about">About Us</a></li>
+          <li><a class="nav-link" href="/contact/contact">Contact Us</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav>
+      <a href="/logout" class="book-a-table-btn d-none d-lg-flex">Logout</a>
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex align-items-center">
+    <div class="container position-relative text-center text-lg-start" data-aos="zoom-in" data-aos-delay="100">
+      <div class="row">
+        <div class="col-lg-8">
+          <h1>Welcome to <span>My Restaurant</span></h1>
+          <h2>Delivering great food for more than 18 years!</h2>
+
+          <div class="btns">
+            <a href="#menu" class="btn-menu animated fadeInUp">Our Menu</a>
+          </div>
+        </div>
+        <div class="col-lg-4 d-flex align-items-center justify-content-center position-relative" data-aos="zoom-in" data-aos-delay="200">
+          <a href="https://www.youtube.com/watch?v=u6BOC7CDUTQ" class="glightbox play-btn"></a>
+        </div>
+
+      </div>
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+          <div class="col-lg-6 order-1 order-lg-2" data-aos="zoom-in" data-aos-delay="100">
+            <div class="about-img">
+              <img src="assets/img/about.jpg" alt="">
+            </div>
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
+            <h3>They provide for the most worthy pleasures, as if the pleasures of the body were to be assumed.</h3>
+            <p class="fst-italic">
+              It is important to take care of the patient, to be followed by the client, but at the same time they will be affected by some great pains and sufferings.
+            </p>
+            <ul>
+              <li><i class="bi bi-check-circle"></i> I do not work at all except to get some advantage out of it.</li>
+              <li><i class="bi bi-check-circle"></i> Doubts or irrure pain in reprimands in the pleasure he wants.</li>
+              <li><i class="bi bi-check-circle"></i> I do not work at all except to get some advantage out of it. Duis aureur irure pain in reprehendit in pleasure tridetas storacalaperda mastir pain eu fu no be born.</li>
+            </ul>
+            <p>
+              I do not work at all except to get some advantage out of it. Do not be angry with the pain in the rebuke, in the pleasure he wants to be a hair from the pain, let him run away from the pain. Unless they are blinded by lust, they do not come out, they are in fault who abandon their duties, the soul softens, that is toils
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Why Us Section ======= -->
+    <section id="why-us" class="why-us">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Why Us</h2>
+          <p>Why Choose Our Restaurant</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-4">
+            <div class="box" data-aos="zoom-in" data-aos-delay="100">
+              <span>01</span>
+              <h4>High-Quality Food</h4>
+              <p>A good restaurant sets a high standard for its food quality and ensures that guests receive the same quality with every meal.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mt-4 mt-lg-0">
+            <div class="box" data-aos="zoom-in" data-aos-delay="200">
+              <span>02</span>
+              <h4>A Positive Overall Experience</h4>
+              <p>One of the key characteristics of a successful restaurant is a positive customer experience, explains The Restaurant Times.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mt-4 mt-lg-0">
+            <div class="box" data-aos="zoom-in" data-aos-delay="300">
+              <span>03</span>
+              <h4> A Unique Selling Differential</h4>
+              <p>If your restaurant provides good food and service but is too similar to other restaurants, customers may overlook your restaurant when deciding</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Why Us Section -->
+
+    <!-- ======= Menu Section ======= -->
+    <section id="menu" class="menu section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Menu</h2>
+          <p>Check Our Tasty Menu</p>
+        </div>
+
+        <div class="row" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="menu-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-starters">Starters</li>
+              <li data-filter=".filter-salads">Salads</li>
+              <li data-filter=".filter-specialty">Specialty</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row menu-container" data-aos="fade-up" data-aos-delay="200">
+
+          <div class="col-lg-6 menu-item filter-starters">
+            <img src="/static/assets/img/menu/lobster-bisque.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Lobster Bisque</a><span>$5.95</span>
+            </div>
+            <div class="menu-ingredients">
+              Lorem, deren, trataro, filede, nerada
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-specialty">
+            <img src="/static/assets/img/menu/bread-barrel.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Bread Barrel</a><span>$6.95</span>
+            </div>
+            <div class="menu-ingredients">
+              Lorem, deren, trataro, filede, nerada
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-starters">
+            <img src="/static/assets/img/menu/cake.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Crab Cake</a><span>$7.95</span>
+            </div>
+            <div class="menu-ingredients">
+              A delicate crab cake served on a toasted roll with lettuce and tartar sauce
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-salads">
+            <img src="/static/assets/img/menu/caesar.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Caesar Selections</a><span>$8.95</span>
+            </div>
+            <div class="menu-ingredients">
+              Lorem, deren, trataro, filede, nerada
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-specialty">
+            <img src="/static/assets/img/menu/tuscan-grilled.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Tuscan Grilled</a><span>$9.95</span>
+            </div>
+            <div class="menu-ingredients">
+              Grilled chicken with provolone, artichoke hearts, and roasted red pesto
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-starters">
+            <img src="/static/assets/img/menu/mozzarella.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Mozzarella Stick</a><span>$4.95</span>
+            </div>
+            <div class="menu-ingredients">
+              Lorem, deren, trataro, filede, nerada
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-salads">
+            <img src="/static/assets/img/menu/greek-salad.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Greek Salad</a><span>$9.95</span>
+            </div>
+            <div class="menu-ingredients">
+              Fresh spinach, crisp romaine, tomatoes, and Greek olives
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-salads">
+            <img src="/static/assets/img/menu/spinach-salad.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Spinach Salad</a><span>$9.95</span>
+            </div>
+            <div class="menu-ingredients">
+              Fresh spinach with mushrooms, hard boiled egg, and warm bacon vinaigrette
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-specialty">
+            <img src="/static/assets/img/menu/lobster-roll.jpg" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Lobster Roll</a><span>$12.95</span>
+            </div>
+            <div class="menu-ingredients">
+              Plump lobster meat, mayo and crisp lettuce on a toasted bulky roll
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Menu Section -->
+
+    <!-- ======= Specials Section ======= -->
+    <section id="specials" class="specials">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Specials</h2>
+          <p>Check Our Specials</p>
+        </div>
+
+        <div class="row" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-3">
+            <ul class="nav nav-tabs flex-column">
+              <li class="nav-item">
+                <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1">It's just a matter of course</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#tab-2">Whence the present but</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#tab-3">I'll explain it to you either</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#tab-4">Ours is like that</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#tab-5">Just as convenient or</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-9 mt-4 mt-lg-0">
+            <div class="tab-content">
+              <div class="tab-pane active show" id="tab-1">
+                <div class="row">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>Let me open it to the architect</h3>
+                    <p class="fst-italic">He who has the praiseworthy results of his labors should be the one who to the wise dila parde rangar raqer a videna mareta paulona marka</p>
+                    <p>And to us his ancestors. For pleasures, as they are for flattery and these. She hates those very tasks. They occur here as trouble or who. It repels the smallest thing of his, and who is nothing big. May he seek the suffering of those who accuse us of the same thing, for our cause is true</p>
+                  </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="assets/img/specials-1.png" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="tab-2">
+                <div class="row">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>No one will accept the truth by flattery</h3>
+                    <p class="fst-italic">He who has the praiseworthy results of his labors should be the one who to the wise dila parde rangar raqer a videna mareta paulona marka</p>
+                    <p>She will achieve the very pleasure of who she is. This error is all because they are to be rejected. We therefore accuse him of not wanting something to be repelled, and he wants the pleasures themselves. They don't know the option and we accuse them of being blessed</p>
+                  </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="assets/img/specials-2.png" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="tab-3">
+                <div class="row">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>It is easy to be blinded by hatred and not be opened</h3>
+                    <p class="fst-italic">What pleasures they I hate those like him, for that is not flight. Those who are not born are called pain and. In the rougher he wants to seek to endure or</p>
+                    <p>He hates the rights of things. It is the fault of the corrupt truth that anyone follows him. Nor did the necessities of things make him so. I am pleased with the very least inconvenience, but laborious from this hatred. He hates them, they don't know how to run away. And the choice of these pleasures</p>
+                  </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="assets/img/specials-3.png" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="tab-4">
+                <div class="row">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>To escape the pains of the laborious finder is to accuse the laborious of pain</h3>
+                    <p class="fst-italic">We charge the whole opening. He repulses the consequence of right pleasure, and rightly chooses who is chosen</p>
+                    <p>And these results are the results of the free expedient in the pleasure. Whosoever wants to escape from our own needs and debts. It is the result of the most error in the body and. To choose the harsher, but those who will open the truth because they are the inventor of the difficulties</p>
+                  </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="assets/img/specials-4.png" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="tab-5">
+                <div class="row">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>It will happen that the very cinder pad rone matrelat sanding reda</h3>
+                    <p class="fst-italic">But I often flatter those who are in debt.</p>
+                    <p>All of our training. To reject rejection less. All the refusals to do not how to do what his who. Because he really hates him and who loves some people. But it is either that they are blinded by the pleasures of life or by the troubles of life</p>
+                  </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="assets/img/specials-5.png" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Specials Section -->
+
+    <!-- ======= Testimonials Section ======= -->
+    <section id="testimonials" class="testimonials section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Testimonials</h2>
+          <p>What they're saying about us</p>
+        </div>
+
+        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  For the target group, the result is worth taking care of until the airline takes over. The accusers, however, need that, and need some discipline. Some faintness, but always a smile.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+                <h3>Saul Goodman</h3>
+                <h4>Ceo &amp; Founder</h4>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Export time, however, I was for the evils of the evils that I was going to be angry with the effort that I was going to be the one who was the one who was going to be the one who wanted to be.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+                <h3>Sara Wilsson</h3>
+                <h4>Designer</h4>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  For if I did not export a hair from your house, which are great, none of which I would bring to your house for a short time, I would have been my home, or I would have been the smallest.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+                <h3>Jena Karlis</h3>
+                <h4>Store Owner</h4>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  For I was fleeing from the pain of pain, there is no fault in the export of many.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+                <h3>Matt Brandon</h3>
+                <h4>Freelancer</h4>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Who are some of them whom I will read?
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+                <h3>John Larson</h3>
+                <h4>Entrepreneur</h4>
+              </div>
+            </div><!-- End testimonial item -->
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section><!-- End Testimonials Section -->
+
+    
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Restaurant Management</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        Designed by <a href="https://bootstrapmade.com/">Hahah</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="{{url_for('static', filename='/assets/vendor/aos/aos.js')}}"></script>
+  <script src="{{url_for('static', filename='/assets/vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
+  <script src="{{url_for('static', filename='/assets/vendor/glightbox/js/glightbox.min.js')}}"></script>
+  <script src="{{url_for('static', filename='/assets/vendor/isotope-layout/isotope.pkgd.min.js')}}"></script>
+  <script src="{{url_for('static', filename='/assets/vendor/swiper/swiper-bundle.min.js')}}"></script>
+  <script src="{{url_for('static', filename='/assets/vendor/php-email-form/validate.js')}}"></script>
+
+  <!-- Template Main JS File -->
+  <script src="{{url_for('static', filename='/assets/js/main.js')}}"></script>
+
+</body>
+
+</html>

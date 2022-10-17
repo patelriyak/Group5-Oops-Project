@@ -54,7 +54,7 @@ The Restaurant Management System helps the restaurant manager to manage the rest
 
 The whole management system is designed for a general Computerized Digital Restaurant. So that any restaurant owner can get it and can start automated process to his/her restaurant.
 
-2.1 USER
+2.1 USER   
 The web application will have five interfaces. Each for Customer, Manager, Receptionist, Admin and Chef. Receptionist can see/edit the status of available/reserved tables. Customer's interface will consist of a scrollable menu listing available items, calorie chart for the specific item and their price. 
 When the customer selects some dishes and place the order, it will be stored in "Cart". Manager's interface will be such that he is notified of the pending order, and he is able to assign it to one the available queues of chefs who are then able to see the new order in their screens or on a central display in kitchen. After each item/dish in an order is prepared, the order is marked completed through the Manager's interface. Customer's interface has an option for requesting the bill. 
 Bill is printed through the Manager's interface. Admin can change and modify the Firebase database like add new menus or staff, add/remove extra chef’s, managers on the website.

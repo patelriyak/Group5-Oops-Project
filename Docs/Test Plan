@@ -1,0 +1,44 @@
+CLEVELAND STATE UNIVERSITY
+CIS 694 – Object-oriented Software Engineer
+TEST SPECIFICATION
+Project: Restaurant Management System
+Presented By:
+Group 5
+Bhavana Tedlapalli (2808568)
+Sravan Kumar Singupuram (2836831)
+Riya Patel (2829317)
+Calvin Raj Namburi (2836250)
+1.0 Introduction
+Basically, Testing is the process of executing a program or system with the intent of
+finding software bugs, errors or other defects which may cause damage to the project
+Stake holders and make sure that system functionalities are tally with user functional
+requirements. Shortcomings can be in any Stage of the Software development cycle.
+These shortcomings can cause the system to malfunction or cause serious issues in fine
+dine. It is important to identify all these errors and fix them before handing it over to the
+customer.
+1.1 Goals and objectives
+The goal of project evaluation is to evaluate the software development process that was
+applied during the framework's development, as well as the utility of the tools and
+technologies, the precision of the projections, and the value of the reviews. The solution
+will be examined and assessed to determine whether it achieves the goals outlined in the
+initial overview and for the product's quality.
+The evaluation of Restaurant Management System in terms of their ability is to inform
+users, including the following aspects:
+• Measures for the effectiveness of the system.
+• Technological measures for evaluating the system.
+• User-oriented measures.
+• Feedback.
+1.2 Statement of scope
+The main objective of this project is to develop a restaurant management system that will
+allow restaurants to manage their operations and improve their customer service.
+However, the system's central functions are also related to the production of reports.
+The creation and deletion of orders, the removal and addition of food workers from a
+request, and the closing of orders are all part of the restaurant management process. The
+system's database should contain all of the orders placed and relate them to the important
+project tasks. Testing and implementation take somewhat longer than planned to
+complete.
+The user should be able to log in to the website and do the following:
+- Add to cart and check out.
+- Access the services such as giving testimonials, editing the cart, adding, and removing
+items.
+- Able to access internet.

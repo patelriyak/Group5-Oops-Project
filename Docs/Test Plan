@@ -42,3 +42,26 @@ The user should be able to log in to the website and do the following:
 - Access the services such as giving testimonials, editing the cart, adding, and removing
 items.
 - Able to access internet.
+2.0 Test Plan
+This section describes the overall testing strategy, and the project management issues that are
+required to properly execute effective tests.
+2.1 Software to be tested
+The online websites will be tested in Amazon Web Services. And we can check it from
+the admin’s laptop whether the localhost is up and running.
+2.3 Testing tools and environment
+The test environment for tools is before running the python shell and compiling the
+app.py, we need to make sure whether the MySQL database is up and running. And then
+we can compile the app.py and wait for the localhost:5000 and the webpage starts
+running. There we can login, signup and then go deep into the website to see the Menu,
+testimonials and adding items to cart, etc.
+Coming to Hardware we need to make sure MySQL and python are installed in the
+admin’s laptop and make sure the internet connection is stable.
+2.4 Test schedule
+A detailed schedule for testing is described. For this application, the waterfall model is
+used. So, after the application is created, testing will take place. However, during
+development, each developer will carry out unit testing.
+3.0 Test Cases
+This section enumerates a complete list of test cases for the software. The template of test cases
+is as follows in the below table.
+Testing such system requires testers to create menu items with different combinations and
+validating the changes are pushed correct to the POS system.

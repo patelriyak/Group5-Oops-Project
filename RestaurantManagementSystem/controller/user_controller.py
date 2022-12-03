@@ -22,6 +22,7 @@ def login_post():
 	username = request.form.get('username')
 	password = request.form.get('password')
 
+
 	# user exist
 	if model_user.validate_username(username, password) != "":
 		# if client
@@ -34,7 +35,8 @@ def login_post():
 			return "Admin"
 	
 	# if user not exist
-	return render_template("login.html")
+	error = 'Invalid username/password. Please try again.'
+	return render_template("login.html", error=error)
 
 @user_page.route("/signup", methods=["GET"])
 def signup():

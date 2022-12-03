@@ -21,8 +21,13 @@ class Res:
 
 	def add_to_cart(self, username, foodname):
 		mycursor = conn.cursor()
+		
+		print(username);
+		print(foodname);
+		sql = ("insert into carttable(email, foodname)"
+		"values(%s, %s)")
 		val = (username, foodname)
-		sql = "insert into carttable (email, foodname) values(%s, %s)"
+		print(val)
 		mycursor.execute(sql, val)
 		conn.commit()
 		return True
@@ -31,6 +36,7 @@ class Res:
 		mycursor = conn.cursor()
 		mycursor.execute(f"select * from carttable where email='{username}'")
 		myresult = mycursor.fetchall()
+		print("Fetch data:    ",myresult);
 		return myresult
 
 	def delete_cart(self, foodname, username):

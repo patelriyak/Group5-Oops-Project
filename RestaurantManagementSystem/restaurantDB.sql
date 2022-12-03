@@ -54,6 +54,7 @@ CREATE TABLE `restable` (
   `name` varchar(255) DEFAULT NULL,
   `price` float DEFAULT NULL,
   `url` varchar(255) DEFAULT NULL,
+  `ingredients` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=utf8mb3;
 

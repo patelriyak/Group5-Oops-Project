@@ -21,7 +21,7 @@ def login():
 def login_post():
 	username = request.form.get('username')
 	password = request.form.get('password')
-
+	error = None
 
 	# user exist
 	if model_user.validate_username(username, password) != "":

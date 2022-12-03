@@ -50,7 +50,7 @@ def rest_checkout():
 @res_page.route("/checkout/", methods=["POST"])
 def res_checkout_post():
 	foodname = request.form.get('foodname')
-    print(foodname);
+    print(foodname)
 	model_res.delete_cart(foodname, lib.username)
 	data = model_res.get_detail_from_name(foodname)
     print('1')    

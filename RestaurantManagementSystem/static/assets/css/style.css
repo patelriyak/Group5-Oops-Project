@@ -1775,3 +1775,23 @@ section {
   font-size: 13px;
   color: #fff;
 }
+
+
+.rest-btns {
+    font-weight: 600;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 12px 30px;
+    border-radius: 50px;
+    transition: 0.3s;
+    line-height: 1;
+    color: white;
+    border: 2px solid #cda45e;
+}
+
+    .rest-btns:hover {
+        background: #cda45e;
+        color: #fff;
+    }

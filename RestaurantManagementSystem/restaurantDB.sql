@@ -32,6 +32,23 @@ CREATE TABLE `carttable` (
 insert  into `carttable`(`id`,`email`,`foodname`) values 
 (24,'aaa@gmail.com','Caesar Selections');
 
+/*Table structure for table `catertable` */
+
+DROP TABLE IF EXISTS `catertable`;
+
+CREATE TABLE `catertable` (
+  `id` INT(11) NOT NULL AUTO_INCREMENT,
+  `firstname` VARCHAR(255) DEFAULT NULL,
+  `lastname` VARCHAR(255) DEFAULT NULL,
+  `email` FLOAT DEFAULT NULL,
+  `cotactnumber` VARCHAR(255) DEFAULT NULL,
+  `items` VARCHAR(255) DEFAULT NULL,
+  `cateringdate` VARCHAR(255) DEFAULT NULL,
+  `venue` VARCHAR(255) DEFAULT NULL,
+  `specialinstructions` VARCHAR(255) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=INNODB AUTO_INCREMENT=10 DEFAULT CHARSET=utf8mb3;
+
 /*Table structure for table `checkouttable` */
 
 DROP TABLE IF EXISTS `checkouttable`;

@@ -12,7 +12,7 @@
 								<th>Icon</th>
 								<th>Food</th>
 								<th>price</th>
-								<th>#</th>
+								<th>Description of Item</th>
 							</tr>
 						</thead>
 						<tbody class="align-middle">
@@ -22,7 +22,7 @@
 								<td><img src="/static/{{ detail[3] }}" class="menu-img"></td>
 								<td>{{ detail[1] }}</td>
 								<td>{{ detail[2] }}</td>
-								<td><a href="/res/add_cart?name={{ detail[1] }}" class="btn btn-danger">Check</a></td>
+								<td><a href="/res/add_cart?name={{ detail[1] }}" class="btn btn-danger">Details</a></td>
 							</tr>
 							{% endfor %}
 						</tbody>

@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\RestaurantManagementSystem"
+    "\\RestaurantManagementSystem",
+    "\\RestaurantManagementSystem\\controller",
+    "\\RestaurantManagementSystem\\templates"
   ],
-  "SelectedNode": "\\.gitignore",
+  "SelectedNode": "\\RestaurantManagementSystem\\controller\\res_controller.py",
   "PreviewInSolutionExplorer": false
 }

@@ -1,0 +1,19 @@
+{% extends "template.html" %}
+{% block content%}
+Cater Details:
+<table border=1>
+    {% for caterplace in caterDetails %}
+    <tr>
+        <td>  {{ caterplace[1] }}  </td>
+        <td>  {{ caterplace[2] }}  </td>
+        <td>  {{ caterplace[3] }}  </td>
+        <td>  {{ caterplace[4] }}  </td>
+        <td>  {{ caterplace[5] }}  </td>
+        <td>  {{ caterplace[6] }}  </td>
+        <td>  {{ caterplace[7] }}  </td>
+        <td>  {{ caterplace[8] }}  </td>
+    </tr>
+    {% endfor %}
+    {{caterDetails}}
+</table>
+{% endblock %}

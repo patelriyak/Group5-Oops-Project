@@ -2,9 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\RestaurantManagementSystem",
-    "\\RestaurantManagementSystem\\controller",
-    "\\RestaurantManagementSystem\\templates"
+    "\\RestaurantManagementSystem\\static",
+    "\\RestaurantManagementSystem\\static\\images"
   ],
-  "SelectedNode": "\\RestaurantManagementSystem\\controller\\res_controller.py",
+  "SelectedNode": "\\RestaurantManagementSystem\\static\\images\\panner.jpeg",
   "PreviewInSolutionExplorer": false
 }
